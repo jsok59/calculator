@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  background-color: darkgreen;
+  padding: 5px;
+  border: 2px solid black;
+  height: 50vh;
+  width: 50vh;
+  gap: 5px;
+}
+
+.calculator > div {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 5px;
+}
+
+.screen {
+    border: 2px solid black;
+    justify-content: right;
+    align-items: center;
+    font-size: 50px;
+    padding-right: 5px;
+    background-color: lightgray;
+}
+
+button {
+    flex: 1;
+    font-size: 50px;
+}
